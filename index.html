@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agogo</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="nav">
+        <div id="btn20" class="btn" onclick="secs()"> 20 SECS</div>
+        <div id="cappucino" class="btn"> CAPPUCINO</div>
+        <div id="the" class="btn"> THE</div>
+        <div id="petitDejeuner" class="btn" > PEUTIT DEJEUNER</div>
+        <div id="dejeuner" class="btn" onclick="Dejeuner()"> DEJEUNER </div>
+    </nav>
+
+
+    <div class="ligne" style="border: solid 1px rgba(78, 75, 75, 0.469); width: 100%;"> </div>
+    <div class="input">
+        <input id="input" type="number" placeholder=" Enter time in minutes ">
+    </div>
+
+    <div class="heure"></div>
+    <div class="back" style="font-size: 20px; color: white;">
+        Be Back at
+        <h1 id="heureActuel"></h1>
+    </div>
+
+    <script src="fichier.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+body {
+    background-color: #41C78B;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.btn {
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+#input {
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    font-size: large;
+}
+
+.heure {
+    text-align: center;
+    margin-top: 500px;
+    font-size: 50px;
+    color: aliceblue;
+}
+.back{
+    display: flex;
+    justify-content: center;
+}
